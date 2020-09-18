@@ -13,12 +13,12 @@ const styles = {
   },
 
   darkMode: {
-    background: 'linear-gradient(to bottom, #000000 ,#434343 50%',
+    background: 'linear-gradient(to bottom, #000000 ,#434343 50%)',
     color: 'white',
   },
 }
 
-const BadButton = props => {
+const BadButton = (props) => {
   let style = { ...styles.default }
   //Styles will default to the default styling
   if (props.darkMode) {
